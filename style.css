@@ -1,22 +1,39 @@
 * {
   margin: 0;
-  padding: 0;
+  top: 0;
   box-sizing: border-box;
 }
-
 body {
-  padding: 16px;
-  font-size: 16px;
+  background: #dedfe1;
+  align-items: center;
 }
 
-#titles {
-  border: 1px solid red;
-  text-align: center;
+img {
+  padding: 20px;
+  width: 550px;
+  height: 350px;
+  border-radius: 36px;
 }
-#titles h2 {
-  padding: 16px;
+
+.Text {
+  padding: 50px;
 }
-#text {
-  font: 24px;
-  padding: 12px;
+
+#Title {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 9px;
+  background-color: #edefeeee;
+  border-radius: 40px;
+  box-shadow: 0 2px 5px rgba(125, 173, 206, 0.1);
+}
+
+button {
+  display: flex;
+  position: fixed;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;  
+  border-radius: 3px;
+  cursor: pointer;
 }

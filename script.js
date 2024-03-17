@@ -1,3 +1,4 @@
-console.log("hello word")
-window.alert("vc concorda?")
-window.prompt("salve o mundo")
+function changeColor {
+var text = document.getElementById('Title')
+}
+
